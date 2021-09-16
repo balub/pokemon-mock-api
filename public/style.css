@@ -59,8 +59,13 @@ main {
 }
 
 footer {
-  margin-top: 4rem;
+  margin-top: 3rem;
   border-top: 1px solid #eee;
+  padding: 1rem;
+}
+
+footer p {
+  margin:auto;
 }
 
 h1 {
