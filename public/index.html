@@ -1,0 +1,68 @@
+
+<html>
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>JSON Server</title>
+    </head>
+  
+    <body>
+      <header>
+        <div class="container">
+          <nav>
+            <ul>
+              <li class="title">
+                POKEMON DATA JSON Server
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+         
+          <div id="resources"></div>
+  
+          <p>
+            To access and modify resources, you can use any HTTP method:
+          </p>
+          <p>
+            <code>GET</code>
+          </p>
+    
+          <h1>Documentation</h1>
+
+          <h2>Routes</h2>
+          <p>GET    /pokemon</p>
+          <p>GET    /pokemon/1</p>
+
+          <h2>Paginate</h2>
+          <p>GET    /pokemon?_page=7</p>
+          <p>GET    /pokemon?_page=7&_limit=20</p>
+
+          <p>
+            <a href="https://github.com/typicode/json-server">
+              README
+            </a>
+          </p>
+        </div>
+      </main>
+  
+      <footer>
+        <div class="container">
+          <p>
+            To replace this page, create a
+            <code>./public/index.html</code> file.
+          </p>
+        </div>
+      </footer>
+  
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
